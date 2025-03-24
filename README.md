@@ -12,28 +12,33 @@ A simple Telegram bot built with aiogram 3.x that echoes back messages to users.
 ## Requirements
 
 - Python 3.13 or higher
+- aiogram 3.x
 - Telegram Bot Token (obtain from [@BotFather](https://t.me/BotFather))
 
 ## Installation
 
-1. Clone the repository:
+### 1. Clone the repository:
 ```bash
 git clone https://github.com/AstroiLL/aiogram-bot.git
 cd aiogram-bot
 ```
 
-2. Create and activate a virtual environment:
+### 2. Create and activate a virtual environment:
 ```bash
 python -m venv .venv
 source .venv/bin/activate  # On Windows use: .venv\Scripts\activate
 ```
 
-3. Install dependencies using uv:
+#### 3.1. Install dependencies using uv (recommended):
 ```bash
 uv pip install .
 ```
+### 3.2. Or install dependencies manually:
+```bash
+pip install -r requirements.txt
+```
 
-4. Create a `.env` file in the project root and add your Telegram bot token:
+### 4. Create a `.env` file in the project root and add your Telegram bot token:
 ```
 TELEGRAM_BOT_TOKEN=your_bot_token_here
 ```
@@ -58,4 +63,4 @@ This project uses:
 
 ## License
 
-[Add your license here]
+This project is open source and available under the MIT License.
