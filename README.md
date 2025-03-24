@@ -18,7 +18,7 @@ A simple Telegram bot built with aiogram 3.x that echoes back messages to users.
 
 1. Clone the repository:
 ```bash
-git clone <your-repository-url>
+git clone https://github.com/AstroiLL/aiogram-bot.git
 cd aiogram-bot
 ```
 
